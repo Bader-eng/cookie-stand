@@ -1,0 +1,35 @@
+nav{
+background-color:lightcoral;
+width: 150px;
+height: 250px;
+color: maroon;
+}
+    
+header{
+    width: 80px;
+    height: 50px;
+float: left;
+}
+
+h1{
+font-family: 'Courier New', Courier, monospace;
+font-style: italic;
+text-align: center;
+background-color:crimson;
+border: crimson;
+}
+p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: oblique;
+font-size: medium;
+background-color:lightcoral;
+border: black;
+}
+
+.image{
+    position: absolute;
+    left:250px;
+  }
+body{
+    background-color: wheat;
+}
