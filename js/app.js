@@ -25,6 +25,8 @@ function City(location,max,min,avg_cookie_sale){
     this.total+=simulatedamounts;
   }
   this.array.push(this.total);
+  //let total2 = 0;
+  //total2+=this.total;
   this.generate_table=function() {
     let main=document.getElementById('demo');
     for (let i = 0; i < 1; i++) {
@@ -75,6 +77,14 @@ function footer(){
   for(let i=1;i<hours.length;i++){
     let cell = document.createElement('td');
     let cellText = document.createTextNode(Seattle.array[i]+Tokyo.array[i]+Paris.array[i]+Dubai.array[i]+Lima.array[i]);
+    cell.appendChild(cellText);
+    tablefooter.appendChild(cell);
+    main.appendChild(tablefooter);
+  }
+
+  if(hours.length<=16) {
+    let cell = document.createElement('td');
+    let cellText = document.createTextNode(Seattle.total+Tokyo.total+Paris.total+Dubai.total+Lima.total);
     cell.appendChild(cellText);
     tablefooter.appendChild(cell);
     main.appendChild(tablefooter);
