@@ -33,3 +33,11 @@ border: black;
 body{
     background-color: wheat;
 }
+table{
+    border:2px black;
+    font-size: medium;
+    size: 50px;
+}
+td,tr,th{
+    border: 2px black solid;
+}
