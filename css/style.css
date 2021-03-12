@@ -10,6 +10,26 @@ header{
     height: 50px;
 float: left;
 }
+.img1{
+    float:right;
+width: 38px;
+position: relative;
+right: 470px;
+top: 20px;
+}
+
+.img2{
+    float:left;
+width: 38px;
+position: relative;
+left: 470px;
+top: 20px;
+}
+
+.img3{
+    position: relative;
+    left: 210px;
+}
 
 h1{
 font-family: 'Courier New', Courier, monospace;
@@ -18,7 +38,7 @@ text-align: center;
 background-color:crimson;
 border: crimson;
 }
-p{
+.p{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-style: oblique;
 font-size: medium;
@@ -27,8 +47,9 @@ border: black;
 }
 
 .image{
-    position: absolute;
-    left:250px;
+    width:500px ;
+    position: relative;
+   left: 400px;
   }
 body{
     background-color: wheat;
@@ -40,4 +61,24 @@ table{
 }
 td,tr,th{
     border: 2px black solid;
+}
+
+footer {
+    text-align: center;
+    background-color: coral;
+    font-size: small;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.img{
+    width: 300px;
+    position: relative;
+    left: 800px;
+}
+.img6{
+    width: 300px;
+    position: relative;
+    left: 280px;
+    bottom: 250px;
 }
